@@ -5,13 +5,17 @@
     <p style="text-align:center">⬇️ foto van boetin</p>
 
     <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">Secret video van boetin</a>
-    <img src="https://cdn-img.newstory.nl/vbn/images/optimized/7fbd1255-5476-491e-a402-707505f55572.png&h=370&w=370&v=1512056498" alt="eend">
+    <div style="text-align: center;">
+        <img decoding="async" src="https://cdn-img.newstory.nl/vbn/images/optimized/7fbd1255-5476-491e-a402-707505f55572.png&h=370&w=370&v=1512056498" alt="boetin" title="eend">
+    </div>
     <button name="button" value="OK" type="button" onclick="hello()">boetin</button>  
     <script>  
+    let danumber = 0
         function hello(){
+            danumber = danumber + 1
             alert("ik");  
             alert("ben");  
-            alert("boetin");  
+            alert(`boetin ${danumber}`);  
         }
     </script>  
 </body>
